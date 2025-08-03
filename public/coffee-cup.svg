@@ -1,0 +1,31 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cupGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5D2F0A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="coffeeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B2F2F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A1A1A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cup body -->
+  <path d="M60 80 L60 180 Q60 200 80 200 L160 200 Q180 200 180 180 L180 80 Z" 
+        fill="url(#cupGradient)" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Coffee inside -->
+  <ellipse cx="120" cy="85" rx="55" ry="8" fill="url(#coffeeGradient)"/>
+  
+  <!-- Cup handle -->
+  <path d="M180 110 Q200 110 200 130 Q200 150 180 150" 
+        fill="none" stroke="url(#cupGradient)" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Steam -->
+  <path d="M100 70 Q105 50 100 30" fill="none" stroke="#C49E78" stroke-width="2" opacity="0.7"/>
+  <path d="M120 70 Q115 50 120 30" fill="none" stroke="#C49E78" stroke-width="2" opacity="0.7"/>
+  <path d="M140 70 Q145 50 140 30" fill="none" stroke="#C49E78" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Highlight -->
+  <ellipse cx="90" cy="100" rx="8" ry="12" fill="#D4AF8C" opacity="0.6"/>
+</svg>
